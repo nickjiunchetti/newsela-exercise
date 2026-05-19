@@ -10,19 +10,19 @@ npm install
 
 ### Script (required output)
 
+Prints two ranked tables to the terminal: top 30 terms associated with poor performance and top 30 associated with good performance.
+
 ```bash
 npm run report
 ```
 
-Prints two ranked tables to the terminal: top 30 terms associated with poor performance and top 30 associated with good performance.
-
 ### Interactive dashboard (extra, dynamic output table)
+
+Opens a React dashboard at `http://localhost:5173` with live controls for thresholds, n-gram sizes, custom stopwords, and a filterable/sortable results table with pagination.
 
 ```bash
 npm run dev
 ```
-
-Opens a React dashboard at `http://localhost:5173` with live controls for thresholds, n-gram sizes, custom stopwords, and a filterable/sortable results table with pagination.
 
 ---
 
